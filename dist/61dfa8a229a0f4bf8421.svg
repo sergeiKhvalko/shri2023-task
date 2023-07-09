@@ -1,0 +1,61 @@
+var _title, _desc, _defs, _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgIconTemperature2 = function SvgIconTemperature2(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 24 24",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink"
+  }, props), _title || (_title = /*#__PURE__*/React.createElement("title", null, "icon_temperature_2")), _desc || (_desc = /*#__PURE__*/React.createElement("desc", null, "Created with Sketch.")), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null)), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Final",
+    stroke: "none",
+    strokeWidth: 1,
+    fill: "none",
+    fillRule: "evenodd"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "v1-2-1-home-dashboard",
+    transform: "translate(-925.000000, -365.000000)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    fill: "currentColor",
+    x: 0,
+    y: 0,
+    width: 1366,
+    height: 768
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "scenarios",
+    transform: "translate(696.000000, 196.000000)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Widget-Copy-7",
+    transform: "translate(215.000000, 155.000000)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "icon_temperature",
+    transform: "translate(14.000000, 14.000000)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle",
+    fillRule: "nonzero",
+    x: 0,
+    y: 0,
+    width: 24,
+    height: 24
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "thermometer",
+    transform: "translate(7.000000, 1.000000)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M7,13.76 L7,2.5 C7,1.11928813 5.88071187,0 4.5,0 C3.11928813,-2.22044605e-16 2,1.11928813 2,2.5 L2,13.76 C0.351885607,14.8611927 -0.381613186,16.911099 0.19375696,18.8079004 C0.769127106,20.7047019 2.51785305,22.0016574 4.5,22.0016574 C6.48214695,22.0016574 8.23087289,20.7047019 8.80624304,18.8079004 C9.38161319,16.911099 8.64811439,14.8611927 7,13.76 Z",
+    id: "Shape",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("circle", {
+    id: "Oval-2",
+    fill: "currentColor",
+    fillRule: "nonzero",
+    cx: 4.5,
+    cy: 17.5,
+    r: 3.5
+  })))))))));
+};
+export default SvgIconTemperature2;

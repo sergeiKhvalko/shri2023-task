@@ -1,0 +1,37 @@
+var _title, _desc, _defs, _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgIconListM1X = function SvgIconListM1X(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 16 14",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink"
+  }, props), _title || (_title = /*#__PURE__*/React.createElement("title", null, "icon_list_m")), _desc || (_desc = /*#__PURE__*/React.createElement("desc", null, "Created with Sketch.")), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("path", {
+    d: "M0,3.32630157 C0,2.77790036 0.444630861,2.33333333 1.00087166,2.33333333 L14.9991283,2.33333333 C15.5518945,2.33333333 16,2.7736791 16,3.32630157 L16,4.00703176 C16,4.55543298 15.5553691,5 14.9991283,5 L1.00087166,5 C0.448105505,5 0,4.55965424 0,4.00703176 L0,3.32630157 Z M0,8.65963491 C0,8.11123369 0.444630861,7.66666667 1.00087166,7.66666667 L14.9991283,7.66666667 C15.5518945,7.66666667 16,8.10701243 16,8.65963491 L16,9.34036509 C16,9.88876631 15.5553691,10.3333333 14.9991283,10.3333333 L1.00087166,10.3333333 C0.448105505,10.3333333 0,9.89298757 0,9.34036509 L0,8.65963491 Z M0,13.9929682 C0,13.444567 0.444630861,13 1.00087166,13 L14.9991283,13 C15.5518945,13 16,13.4403458 16,13.9929682 L16,14.6736984 C16,15.2220996 15.5553691,15.6666667 14.9991283,15.6666667 L1.00087166,15.6666667 C0.448105505,15.6666667 0,15.2263209 0,14.6736984 L0,13.9929682 Z",
+    id: "path-1"
+  }))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Final",
+    stroke: "none",
+    strokeWidth: 1,
+    fill: "none",
+    fillRule: "evenodd"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "v1-1-1-mobile-home",
+    transform: "translate(-339.000000, -70.000000)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Direct-/-Icons-/-List-/-M",
+    transform: "translate(339.000000, 68.000000)"
+  }, /*#__PURE__*/React.createElement("mask", {
+    id: "mask-2",
+    fill: "currentColor"
+  }, /*#__PURE__*/React.createElement("use", {
+    xlinkHref: "#path-1"
+  })), /*#__PURE__*/React.createElement("use", {
+    id: "icon_list_m",
+    fill: "currentColor",
+    xlinkHref: "#path-1"
+  }))))));
+};
+export default SvgIconListM1X;
